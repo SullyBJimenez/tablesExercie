@@ -1,0 +1,42 @@
+Tables Exercise
+
+<script>
+let multiplier = 1;
+let table = [];
+let row = [];
+
+while (multiplier <=10){
+    for(var i=1; i<= 10; i++){
+        if(i*multiplier <10){
+           let number = "   " + i*multiplier + "   ";
+            row += number; 
+        } else {
+            let number = "  " + i*multiplier + "   ";
+            row += number;
+        }
+       
+    }  
+    i = table.length;
+    table[i] = row;
+    multiplier++;
+    row = [];
+    //console.log(table[i]);
+    }
+    
+
+/*for(let i=1; i<= 10; i++){
+    table.push(row);
+    row = row * multiplier;
+    console.log(row);
+    table += row;
+    multiplier++
+    //console.log(multiplier);
+}*/
+
+//console.log(row);
+//console.log(multiplier);
+console.log(table);
+//console.log(table[0]);
+//console.log(table[1]);
+
+</script>

@@ -1,4 +1,4 @@
-# tablesExercise
+Multiplications Table Exercise
 
 This is an exercise I completed where the console output is the following:
 
